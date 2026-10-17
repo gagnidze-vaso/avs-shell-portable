@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\SystemFileAssociations\.mp4\shell\AVS-scripts]
+[-HKEY_CURRENT_USER\SOFTWARE\Classes\SystemFileAssociations\.mkv\shell\AVS-scripts]
