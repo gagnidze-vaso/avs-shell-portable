@@ -2,6 +2,10 @@
 
 **AvsShell** is a context menu shell for Windows that brings AviSynth directly to your Explorer.
 
+## Why this exists
+
+AviSynth scripts are usually plugged into **PotPlayer** so that video gets frame-interpolated on the fly during playback. That's great — until you want to *send* the interpolated video to someone who doesn't have PotPlayer (or any other player with a built-in interpolation script). This shell does the opposite of that workflow: instead of interpolating during playback, it **produces a separate interpolated copy of the file**, so you can share it with anyone — for example, people who watch videos on their phone.
+
 ## Features
 - Adds an **"AVS-scripts → 60fps"** context menu entry for `.mp4` and `.mkv` files.
 - Runs an AviSynth script (`scripts\60fps.avs`) on the selected video via `ffmpeg`.
